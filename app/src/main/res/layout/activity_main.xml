@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/splash_bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/fone_diet_logo_splash"
+        android:layout_width="@dimen/icon_width_height"
+        android:layout_height="@dimen/icon_width_height"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="@dimen/onBoardScreen_margin_top"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/fone_diet_logo_splash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/foneDiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fone_diet_logo_splash"
+        android:layout_marginStart="16dp"
+        android:text="FONE-DIET"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/margin_top_icon_name"
+        android:textSize="@dimen/text_size_icon_name"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fone_diet_logo_splash"/>
+
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:text='"Live outside\nthe smart\nphones."'
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_content_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foneDiet" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="339dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_above="@+id/btnLogin"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/white"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/button_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvContent" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="339dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login_button_bg"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCreate" />
+
+
+
+</android.support.constraint.ConstraintLayout>

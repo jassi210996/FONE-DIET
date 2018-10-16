@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "453862334226",
+    "firebase_url": "https://fone-diet-28871.firebaseio.com",
+    "project_id": "fone-diet-28871",
+    "storage_bucket": "fone-diet-28871.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453862334226:android:5db3bac5fb72c69f",
+        "android_client_info": {
+          "package_name": "com.example.kingj.fone_diet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453862334226-gd4l33sqfiavg1jesgn198fb816iqrfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kingj.fone_diet",
+            "certificate_hash": "275b48cbadda0fb3ff99041c223867d4675c1245"
+          }
+        },
+        {
+          "client_id": "453862334226-9acbn29n7k2ustqvsdqe9h7f8ibhj8mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIkOUOdK3PtEMt8xQaHne0mBuHHMAZqJQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453862334226-9acbn29n7k2ustqvsdqe9h7f8ibhj8mo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
